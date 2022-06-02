@@ -2,7 +2,7 @@ import tweepy
 import configparser
 
 config = configparser.ConfigParser()
-config.read('auth1.txt')
+config.read('auth.txt')
 api_key = config.get('apikey', 'key')
 api_secret = config.get('apikey', 'key_secret')
 access_token = config.get('apikey', 'access_token')
